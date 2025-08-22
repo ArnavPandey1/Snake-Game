@@ -1,0 +1,44 @@
+body {
+    background: #121212;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  canvas {
+    border: 10px solid darkolivegreen;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+  }
+  
+  /* Game Over UI */
+  #game-over-screen {
+    margin-top: 20px;
+    display: none;
+    text-align: center;
+  }
+  
+  #final-score {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: darkolivegreen;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3b5e3b;
+  }
